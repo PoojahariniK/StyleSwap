@@ -43,6 +43,7 @@ The project follows MVVM with a repository layer:
 
 ## Project Structure
 com.example.styleswap
+
     - MainActivity.kt
 
     - core
