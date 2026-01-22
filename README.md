@@ -43,6 +43,7 @@ The project follows MVVM with a repository layer:
 
 ## Project Structure
 com.example.styleswap
+├── MainActivity.kt
 │
 ├── core
 │   ├── navigation
@@ -89,14 +90,10 @@ com.example.styleswap
 │       ├── Theme.kt
 │       └── Type.kt
 │
-├── viewmodel
-│   ├── FeedViewModel.kt
-│   ├── ProductDetailViewModel.kt
-│   └── WishlistViewModel.kt
-│
-└── MainActivity.kt
-
-
+└── viewmodel
+    ├── FeedViewModel.kt
+    ├── ProductDetailViewModel.kt
+    └── WishlistViewModel.kt
 
 ## API Used
 - FakeStoreAPI
