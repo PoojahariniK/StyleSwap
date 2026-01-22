@@ -43,57 +43,60 @@ The project follows MVVM with a repository layer:
 
 ## Project Structure
 com.example.styleswap
-├── MainActivity.kt
-│
-├── core
-│   ├── navigation
-│   │   ├── BottomNav.kt
-│   │   └── Routes.kt
-│   └── util
-│       ├── Resource.kt
-│       └── SortOption.kt
-│
-├── data
-│   ├── local
-│   │   ├── dao
-│   │   │   └── WishlistDao.kt
-│   │   ├── db
-│   │   │   ├── AppDatabase.kt
-│   │   │   └── DatabaseProvider.kt
-│   │   └── entity
-│   │       └── WishlistEntity.kt
-│   │
-│   ├── remote
-│   │   ├── api
-│   │   │   ├── ApiClient.kt
-│   │   │   └── FakeStoreApi.kt
-│   │   └── dto
-│   │       └── ProductDto.kt
-│   │
-│   └── repository
-│       ├── ProductRepository.kt
-│       └── WishlistRepository.kt
-│
-├── ui
-│   ├── components
-│   │   └── ProductCard.kt
-│   ├── screens
-│   │   ├── home
-│   │   │   ├── HomeScreen.kt
-│   │   │   └── WomenFeedScreen.kt
-│   │   ├── details
-│   │   │   └── ProductDetailScreen.kt
-│   │   └── wishlist
-│   │       └── WishlistScreen.kt
-│   └── theme
-│       ├── Color.kt
-│       ├── Theme.kt
-│       └── Type.kt
-│
-└── viewmodel
-    ├── FeedViewModel.kt
-    ├── ProductDetailViewModel.kt
-    └── WishlistViewModel.kt
+    - MainActivity.kt
+
+    - core
+        - navigation
+            - BottomNav.kt
+            - Routes.kt
+        - util
+            - Resource.kt
+            - SortOption.kt
+
+    - data
+        - local
+            - dao
+                - WishlistDao.kt
+            - db
+                - AppDatabase.kt
+                - DatabaseProvider.kt
+            - entity
+                - WishlistEntity.kt
+
+        - remote
+            - api
+                - ApiClient.kt
+                - FakeStoreApi.kt
+            - dto
+                - ProductDto.kt
+
+        - repository
+            - ProductRepository.kt
+            - WishlistRepository.kt
+
+    - ui
+        - components
+            - ProductCard.kt
+
+        - screens
+            - home
+                - HomeScreen.kt
+                - WomenFeedScreen.kt
+            - details
+                - ProductDetailScreen.kt
+            - wishlist
+                - WishlistScreen.kt
+
+        - theme
+            - Color.kt
+            - Theme.kt
+            - Type.kt
+
+    - viewmodel
+        - FeedViewModel.kt
+        - ProductDetailViewModel.kt
+        - WishlistViewModel.kt
+
 
 ## API Used
 - FakeStoreAPI
